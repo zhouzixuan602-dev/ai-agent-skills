@@ -1,0 +1,7 @@
+# 不要把 token 提交到 GitHub！
+config.sh
+
+# 系统文件
+.DS_Store
+__pycache__/
+*.pyc
