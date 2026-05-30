@@ -27,6 +27,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 001 | [Structured Output Enforcer](skills/day001-structured-output-enforcer/SKILL.md) | LLM 输出格式不稳定，JSON 解析失败 | 2026-05-28 |
 | 002 | [Token Budget Optimizer](skills/day002-token-budget-optimizer/SKILL.md) | Token 消耗失控，API 成本爆炸 | 2026-05-29 |
 | 003 | [Hallucination Reducer](skills/day003-hallucination-reducer/SKILL.md) | AI 自信给出错误事实，幻觉率居高不下 | 2026-05-30 |
+| 004 | [Tool Call Recovery](skills/day004-tool-call-recovery/SKILL.md) | 工具调用失败时缺乏分类处理和降级兜底 | 2026-05-31 |
 
 ---
 
