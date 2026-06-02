@@ -30,6 +30,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 004 | [Tool Call Recovery](skills/day004-tool-call-recovery/SKILL.md) | 工具调用失败时缺乏分类处理和降级兜底 | 2026-05-31 |
 | 005 | [Memory Manager](skills/day005-memory-manager/SKILL.md) | 长对话超出上下文窗口，Agent "失忆" | 2026-06-01 |
 | 006 | [Rate Limiter & Task Queue](skills/day006-rate-limiter/SKILL.md) | 并发任务触发 API rate limit，重试风暴导致大量请求失败 | 2026-06-02 |
+| 007 | [Cost Monitor](skills/day007-cost-monitor/SKILL.md) | Agent 跑完才发现烧了几十美元，缺乏实时成本可见性和预算熔断 | 2026-06-03 |
 
 ---
 
