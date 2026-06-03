@@ -31,6 +31,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 005 | [Memory Manager](skills/day005-memory-manager/SKILL.md) | 长对话超出上下文窗口，Agent "失忆" | 2026-06-01 |
 | 006 | [Rate Limiter & Task Queue](skills/day006-rate-limiter/SKILL.md) | 并发任务触发 API rate limit，重试风暴导致大量请求失败 | 2026-06-02 |
 | 007 | [Cost Monitor](skills/day007-cost-monitor/SKILL.md) | Agent 跑完才发现烧了几十美元，缺乏实时成本可见性和预算熔断 | 2026-06-03 |
+| 008 | [Multi-Model Router](skills/day008-multi-model-router/SKILL.md) | 所有请求都打到最贵的模型，成本高却没有额外收益 | 2026-06-04 |
 
 ---
 
