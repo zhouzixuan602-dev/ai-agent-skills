@@ -32,6 +32,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 006 | [Rate Limiter & Task Queue](skills/day006-rate-limiter/SKILL.md) | 并发任务触发 API rate limit，重试风暴导致大量请求失败 | 2026-06-02 |
 | 007 | [Cost Monitor](skills/day007-cost-monitor/SKILL.md) | Agent 跑完才发现烧了几十美元，缺乏实时成本可见性和预算熔断 | 2026-06-03 |
 | 008 | [Multi-Model Router](skills/day008-multi-model-router/SKILL.md) | 所有请求都打到最贵的模型，成本高却没有额外收益 | 2026-06-04 |
+| 009 | [Structured Logger](skills/day009-structured-logger/SKILL.md) | Agent 出错时日志杂乱，无法快速定位哪个工具调用或 LLM 请求出了问题 | 2026-06-06 |
 
 ---
 
