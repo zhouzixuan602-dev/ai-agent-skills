@@ -33,6 +33,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 007 | [Cost Monitor](skills/day007-cost-monitor/SKILL.md) | Agent 跑完才发现烧了几十美元，缺乏实时成本可见性和预算熔断 | 2026-06-03 |
 | 008 | [Multi-Model Router](skills/day008-multi-model-router/SKILL.md) | 所有请求都打到最贵的模型，成本高却没有额外收益 | 2026-06-04 |
 | 009 | [Structured Logger](skills/day009-structured-logger/SKILL.md) | Agent 出错时日志杂乱，无法快速定位哪个工具调用或 LLM 请求出了问题 | 2026-06-06 |
+| 010 | [Intent Clarifier](skills/day010-intent-clarifier/SKILL.md) | 模糊请求导致 Agent 猜错需求，浪费多轮 token 甚至产出完全偏离的结果 | 2026-06-07 |
 
 ---
 
