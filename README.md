@@ -35,6 +35,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 009 | [Structured Logger](skills/day009-structured-logger/SKILL.md) | Agent 出错时日志杂乱，无法快速定位哪个工具调用或 LLM 请求出了问题 | 2026-06-06 |
 | 010 | [Intent Clarifier](skills/day010-intent-clarifier/SKILL.md) | 模糊请求导致 Agent 猜错需求，浪费多轮 token 甚至产出完全偏离的结果 | 2026-06-07 |
 | 011 | [Prompt Injection Guard](skills/day011-prompt-injection-guard/SKILL.md) | Agent 处理外部内容时被恶意指令劫持，执行未授权操作 | 2026-06-08 |
+| 012 | [Streaming Handler](skills/day012-streaming-handler/SKILL.md) | 流式响应中断无法恢复、Partial JSON 崩溃、进度完全不透明 | 2026-06-09 |
 
 ---
 
