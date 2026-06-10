@@ -36,6 +36,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 010 | [Intent Clarifier](skills/day010-intent-clarifier/SKILL.md) | 模糊请求导致 Agent 猜错需求，浪费多轮 token 甚至产出完全偏离的结果 | 2026-06-07 |
 | 011 | [Prompt Injection Guard](skills/day011-prompt-injection-guard/SKILL.md) | Agent 处理外部内容时被恶意指令劫持，执行未授权操作 | 2026-06-08 |
 | 012 | [Streaming Handler](skills/day012-streaming-handler/SKILL.md) | 流式响应中断无法恢复、Partial JSON 崩溃、进度完全不透明 | 2026-06-09 |
+| 013 | [Tool Result Validator](_standalone/tool-result-validator/README.md) | 工具返回值校验缺失，null/类型错误/注入内容直接污染 LLM 上下文 | 2026-06-11 |
 
 ---
 
