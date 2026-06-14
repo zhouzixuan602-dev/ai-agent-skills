@@ -40,6 +40,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 014 | [Context Window Manager](_standalone/context-window-manager/README.md) | 长对话超出上下文限制导致 BadRequestError，历史压缩不当丢失关键信息 | 2026-06-12 |
 | 015 | [Agent Test Framework](_standalone/agent-test-framework/README.md) | Agent 每次改 prompt 都靠手测，无法自动捕获工具调用回归和行为漂移 | 2026-06-13 |
 | 016 | [LLM Hallucination Detector](_standalone/llm-hallucination-detector/README.md) | LLM 用同等自信心输出错误事实，置信度评分+来源核查+自洽性检测三层防护 | 2026-06-14 |
+| 017 | [Agent Cost Guard](_standalone/agent-cost-guard/README.md) | Agent 静默耗尽 API 预算，三层限额（单次/会话/累计）在调用前拦截超支 | 2026-06-15 |
 
 ---
 
