@@ -41,6 +41,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 015 | [Agent Test Framework](_standalone/agent-test-framework/README.md) | Agent 每次改 prompt 都靠手测，无法自动捕获工具调用回归和行为漂移 | 2026-06-13 |
 | 016 | [LLM Hallucination Detector](_standalone/llm-hallucination-detector/README.md) | LLM 用同等自信心输出错误事实，置信度评分+来源核查+自洽性检测三层防护 | 2026-06-14 |
 | 017 | [Agent Cost Guard](_standalone/agent-cost-guard/README.md) | Agent 静默耗尽 API 预算，三层限额（单次/会话/累计）在调用前拦截超支 | 2026-06-15 |
+| 018 | [Semantic Cache](_standalone/semantic-cache/README.md) | 相同意图的问题重复付费，语义相似度缓存让 LLM 调用成本降低 60-80% | 2026-06-16 |
 
 ---
 
