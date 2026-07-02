@@ -43,6 +43,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 017 | [Agent Cost Guard](_standalone/agent-cost-guard/README.md) | Agent 静默耗尽 API 预算，三层限额（单次/会话/累计）在调用前拦截超支 | 2026-06-15 |
 | 018 | [Semantic Cache](_standalone/semantic-cache/README.md) | 相同意图的问题重复付费，语义相似度缓存让 LLM 调用成本降低 60-80% | 2026-06-16 |
 | 019 | [Prompt Compressor](_standalone/prompt-compressor/README.md) | Agent prompt 因重复指令和冗余历史膨胀至数万 token，多策略压缩节省 60-75% 费用 | 2026-06-23 |
+| 020 | [Response Evaluator](_standalone/response-evaluator/README.md) | Agent 自信输出错误答案你却不知道，LLM-as-Judge 四维评分在响应到达用户前自动拦截劣质输出 | 2026-07-03 |
 
 ---
 
