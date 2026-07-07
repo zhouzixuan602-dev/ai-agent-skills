@@ -46,6 +46,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 020 | [Response Evaluator](_standalone/response-evaluator/README.md) | Agent 自信输出错误答案你却不知道，LLM-as-Judge 四维评分在响应到达用户前自动拦截劣质输出 | 2026-07-03 |
 | 021 | [Prompt Injection Shield](_standalone/prompt-injection-shield/README.md) | Agent 读取网页/邮件时被隐藏指令劫持，四层防护：归一化反混淆+签名扫描+LLM 裁判+随机边界围栏 | 2026-07-06 |
 | 022 | [Streaming Checkpoint Recovery](_standalone/streaming-checkpoint-recovery/README.md) | 流式响应中途断连后重试从零开始，输出 token 重复付费且用户看到答案重来；checkpoint + assistant prefill 让模型从断点续写 | 2026-07-07 |
+| 023 | [Agent Circuit Breaker](_standalone/agent-circuit-breaker/README.md) | 一个 flaky 工具拖垮整个 agent run：重试风暴打挂已宕机的 API、fatal 错误被无谓重试；错误分类+指数退避+熔断器+降级链三层防护 | 2026-07-08 |
 
 ---
 
