@@ -48,6 +48,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 022 | [Streaming Checkpoint Recovery](_standalone/streaming-checkpoint-recovery/README.md) | 流式响应中途断连后重试从零开始，输出 token 重复付费且用户看到答案重来；checkpoint + assistant prefill 让模型从断点续写 | 2026-07-07 |
 | 023 | [Agent Circuit Breaker](_standalone/agent-circuit-breaker/README.md) | 一个 flaky 工具拖垮整个 agent run：重试风暴打挂已宕机的 API、fatal 错误被无谓重试；错误分类+指数退避+熔断器+降级链三层防护 | 2026-07-08 |
 | 024 | [LLM Cascade Router](_standalone/llm-cascade-router/README.md) | 所有请求都走最贵的模型，90% 流量为简单任务多付 3-15 倍费用；启发式预路由+便宜模型先试+低置信度自动升级，省 50-75% 成本 | 2026-07-10 |
+| 025 | [Agent Memory Tiers](_standalone/agent-memory-tiers/README.md) | 长对话要么撑爆上下文窗口、要么滑动窗口忘掉第 1 轮的账号/决定；热/温/冷三层记忆：近期原文+滚动摘要+事实抽取，第 500 轮成本与第 10 轮相同且永不忘关键事实 | 2026-07-12 |
 
 ---
 
