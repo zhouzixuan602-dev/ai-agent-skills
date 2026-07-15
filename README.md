@@ -50,6 +50,7 @@ AI agent 在真实生产环境中面临的问题远比 demo 复杂：
 | 024 | [LLM Cascade Router](_standalone/llm-cascade-router/README.md) | 所有请求都走最贵的模型，90% 流量为简单任务多付 3-15 倍费用；启发式预路由+便宜模型先试+低置信度自动升级，省 50-75% 成本 | 2026-07-10 |
 | 025 | [Agent Memory Tiers](_standalone/agent-memory-tiers/README.md) | 长对话要么撑爆上下文窗口、要么滑动窗口忘掉第 1 轮的账号/决定；热/温/冷三层记忆：近期原文+滚动摘要+事实抽取，第 500 轮成本与第 10 轮相同且永不忘关键事实 | 2026-07-12 |
 | 026 | [LLM Schema Guard](_standalone/llm-schema-guard/README.md) | LLM 输出裹 markdown/单引号/截断导致 json.loads 崩溃，盲目重试翻倍成本；extract→repair→coerce→validate 四步本地修复 90%+ 坏输出（$0），仅在必要时带精确错误反馈重试一次 | 2026-07-14 |
+| 027 | [Agent Flight Recorder](_standalone/agent-flight-recorder/README.md) | Agent 生产崩溃后只剩一堆 print 和指向 SDK 的栈，只能加日志重新部署等复现；黑匣子式结构化追踪：每个 LLM/工具调用记录耗时+token+成本+输入输出+错误栈，replay() 重建时间线并直接给出失败步骤与触发输入 | 2026-07-16 |
 
 ---
 
